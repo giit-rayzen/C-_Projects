@@ -187,9 +187,3 @@ message(STATUS "Project binary dir: ${CMAKE_BINARY_DIR}")
 #    - Only recompiles changed .cpp files
 #    - Automatically handles header dependencies
 #    - Much faster than rebuilding everything
-```
-
-## Keep Same Source Files
-
-The `include/utils.h`, `src/utils.cpp`, and `src/main.cpp` remain **exactly the same** as before! CMake just changes HOW we build them, not the code itself.
-

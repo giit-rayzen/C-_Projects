@@ -16,7 +16,9 @@ int main() {
     std::cout << "5 + 7 = " << result << std::endl;
     
     // Test 2: String greeting
-    std::string message = greet("Shubham");
+    std::string s;
+    std::cin>>s;
+    std::string message = greet(s);
     std::cout << message << std::endl;
     
     // Interview Point: Return value of main()
