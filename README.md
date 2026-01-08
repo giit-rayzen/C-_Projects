@@ -1,5 +1,19 @@
 # Hello Build System
 
+## 📦 Repository Structure
+```
+hello-build-system/
+├── CMakeLists.txt    ← Build configuration (committed)
+├── README.md         ← Documentation (committed)
+├── .gitignore        ← Git ignore rules (committed)
+├── include/
+│   └── utils.h       ← Headers (committed)
+├── src/
+│   ├── main.cpp      ← Source files (committed)
+│   └── utils.cpp     ← Source files (committed)
+└── build/            ← Generated files (NOT committed)
+```
+
 ## 🎯 Project Goal
 Understanding C++ compilation process, build systems(CMake), and project organization fundamentals.
 
